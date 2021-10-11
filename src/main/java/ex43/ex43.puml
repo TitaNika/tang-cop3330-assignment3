@@ -1,0 +1,19 @@
+@startuml
+
+class main{
+print: prompts users for appropriate inputs
+Web(): call upon method for execution
+}
+
+class Web{
+path: initialize proper path for folder to be created
+write: write output in appropriate format
+if: statement prompted if user so desires
+else: exceptions for alternate cases
+}
+
+main - Web
+Web - output
+
+
+@enduml

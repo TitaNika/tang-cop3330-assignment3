@@ -1,0 +1,23 @@
+package ex44;
+
+* Libraries needed
+
+class Json
+
+public static void print{
+- create parser object
+- set precedent
+- read in json inputs from file when user prompt
+- loop to ensure all inputs are read and place them in orderly manner
+- set condition to ignore case
+- call upon precedence to ensure everything is present
+- make a statement to inform user if values are not present
+- create exception case
+}
+
+public static void main{
+- create new scanner object to scan user prompt
+- prompt user to input "product name"
+- scan user input
+- call upon function to execute
+}

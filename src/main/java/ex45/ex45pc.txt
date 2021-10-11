@@ -1,0 +1,45 @@
+package ex45;
+
+* Libraries needed
+
+class WordFinder*
+
+public static void main{
+- create new scanner object
+- prompt user to input an output file name
+- create array list
+- create outfile object
+}
+
+class ReadFile*
+- refer to ArrayList
+- refer to scanner object
+
+public ReadFile{
+- create new list
+- create new file scanner to scan input file
+}
+
+public void read{
+- while loop to scan in the content of input file and add them to list
+- statement to avoid memory leakage
+}
+
+public getData{
+- return the list
+}
+
+class WriteFile*
+- refer to ArrayList
+- refer to output writer
+
+public WriteFile{
+- create output file based on inputted output file name
+- call list
+}
+
+public void write{
+- create loop to loop input file
+- loop and replace string with string of choice
+- statement to avoid memory leakage
+}

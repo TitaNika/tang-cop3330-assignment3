@@ -1,0 +1,31 @@
+package ex46;
+
+* Libraries needed
+
+class WordFrequency
+
+public static readFile{
+- create file scanner fto scan input file
+- create new arrayList
+- loop to scan through input file and place them in list
+- return the list
+}
+
+static int count{
+- count the number of times each string was present in file
+- return the value
+}
+
+public static void arrange{
+- loop to determine the order of arrangement
+- determine the number of times each word was presented then show the number of iteration by the symbol desired
+- print out iterations in the form of the symbol
+}
+
+public static void find{
+- scan through and verify that word is present
+}
+
+public static void main{
+- call function for sorting
+}

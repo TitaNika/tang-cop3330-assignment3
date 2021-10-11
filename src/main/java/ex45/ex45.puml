@@ -1,0 +1,36 @@
+@startuml
+
+class main{
+scan: scan for user input
+read: read input file
+list: create new array list
+write: write data
+}
+
+class readFile{
+file: read from input file
+}
+
+class read{
+while: scan in all values from input file
+}
+
+class getData{
+return: return values obtained from input file
+}
+
+class writeFile{
+writer: makes output file to write
+}
+
+class write{
+while: write and overwrite based on how program
+}
+
+readFile - read
+read - getData
+getData - writeFile
+write - main
+main - output
+
+@enduml

@@ -1,0 +1,16 @@
+package ex42;
+
+* Libraries needed
+
+class Employee
+
+public void Parse{
+- create new File scanner to scan input file
+- while loop to scan values from input file along with storing it in a temporary array then print them
+- make an exception in case an input file was not found
+}
+
+public static void main{
+- customize the "display" of which output
+- call upon method for execution
+}

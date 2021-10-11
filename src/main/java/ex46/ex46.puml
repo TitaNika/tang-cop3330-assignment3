@@ -1,0 +1,34 @@
+@startuml
+
+class readFile{
+File: read in input file
+ArrayList: create new arrayList
+while: loop and scan file content
+return: return content of file for evaluation
+}
+
+class count{
+for: loops through content of file
+return: return value of number of iterations for evaluation
+}
+
+class arrange{
+for: loop based on precedence
+println: print out output based on iteration as symbol
+}
+
+class find{
+for: loop through content to verify everything is present
+}
+
+class main{
+find: call method for execution
+}
+
+readFile - count
+count - arrange
+arrange - find
+main - find
+find - output
+
+@enduml

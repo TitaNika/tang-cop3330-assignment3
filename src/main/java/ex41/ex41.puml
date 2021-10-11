@@ -1,0 +1,24 @@
+@startuml
+
+class readNames{
+ArrayList : keep scanning names and placing them in array
+
+}
+
+class outputNames{
+output : write/overwrite output
+write: write in order based on for loop
+}
+
+class main{
+input: scan input file
+ArrayList : create new array for names to be stored
+Collections.sort : Case Insensitive
+}
+
+main - readNames
+readNames - outputNames
+outputNames - output
+
+
+@enduml

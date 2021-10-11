@@ -1,0 +1,21 @@
+package ex43;
+
+* Libraries needed
+
+class WebSiteGenerator
+
+public static void main{
+- create scanner object
+- set variables and their types
+- prompt user to acknowledge the variables and define them
+- call upon method for execution
+- statement to avoid memory leakage
+}
+
+public static void Web{
+- set path for folder
+- make statement to state the status of execution
+- format presentation of how website is to be presented
+- "ifs" statements to execute its purpose if user prompts "y/Y"
+- create exceptions for alternate cases
+}

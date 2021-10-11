@@ -1,0 +1,18 @@
+@startuml
+
+class print{
+parse: json parser
+boolean: set false as a mean of verification when executing code
+for: executes when user inputs value for "product"
+if: formats output in appropriate format
+}
+
+class main{
+scan: scan for user input
+print: call upon method for execution
+}
+
+main - print
+print- output
+
+@enduml

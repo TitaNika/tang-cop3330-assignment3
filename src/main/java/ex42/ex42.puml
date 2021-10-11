@@ -1,0 +1,18 @@
+@startuml
+
+class Parse{
+input: scan new input file
+while: loop scanning said data and storing it in temp arrays
+catch: an alternative statement if no input file is found
+}
+
+class main{
+print: creates structure for data to be displayed
+employee.Parse: direct function to input file
+}
+
+Parse - main
+main - output
+
+
+@enduml

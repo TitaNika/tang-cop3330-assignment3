@@ -1,0 +1,23 @@
+package ex41;
+
+* Libraries needed
+
+class NameArrange
+
+public static void readNames{
+- while loop: adds name to the arrayList created in main
+}
+
+public static void outputNames{
+- create/rewrite output file
+- format output
+- for loop to write out the output (sorted)
+- statement to avoid memory leakage
+}
+
+public static void main{
+- take file path to which input file is to be found
+- create an arraylist
+- create condition that allows for input to be case Insensitive
+- call upon previous method mentioned
+}
